@@ -859,7 +859,7 @@ footer ion-icon{
   color: #e0e0e0;
   
  }
- .hero-sell .input
+ /* .hero-sell .input
  .inputfiled{
 padding: 15px 150px;
 border-radius: 30px;
@@ -882,4 +882,163 @@ margin-bottom: 6px;
 margin-right: 10px;
 background-color: #333;
 border-radius: 50%;
- } 
+ }  */
+
+
+.search-container {
+  position: relative;
+margin-top: 20px;
+}
+
+.search-bar {
+  
+  padding: 10px ;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color:black;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /* sellers section1 */
+
+ .btnso{
+  background-color: #333;
+  padding: 10px 114px;
+  border-radius: 0;
+  font-size: 24;
+  border-radius: 25px;
+  margin-top: 10px;
+ }
+ .cont-sell{
+
+  height: 600px;width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ .cont-sell
+  .item{
+  border: 2px solid black;
+  width: 28%;
+  height: 450px;
+  border-radius: 3%;
+  overflow: hidden;
+  
+
+ }
+ .cont-sell .container2{
+  height: auto;
+  /* background-color: #d7a4a4; */
+  width: 77%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+ }
+ .sellim{
+  height: 55%;
+  width: auto;
+  /* background-color: #6073db; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+ .rent-details{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+  
+
+
+  
+
+ }
+ .rent-details h2{
+  padding-bottom: 10px;
+ }
+ .rent-details p{
+  padding-bottom: 10px;
+ }
+
+ /* sellers guide */
+ .sgmain{
+
+  /* background-color:  rgb(242, 242, 242); */
+  width: 100%;
+  height: 500px;
+ }
+.imgd{
+  height: 500px;
+  width: auto;
+
+}
+
+.imgo
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.txt{
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  align-self: center;
+  padding-left: 140px;
+}
+.txt h1{
+text-align: center;
+}
+
+.sgmain button{
+ background-color: #e64a19;
+ color: white;
+  padding: 10px 114px;
+  border-radius: 0;
+  font-size: 24;
+  border-radius: 25px;
+  margin-top: 10px;
+
+}
+
+.sgmain button:hover{
+background-color: black;
+ color: #d6d1d1;
+ 
+ }
+ 
