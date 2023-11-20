@@ -140,7 +140,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff; 
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
 }
 
 /* Change the link styles on hover */
@@ -604,7 +605,7 @@ button:hover {
     /* background-color: #c2c7e7; */
  width: 300px;
 
-   height:352px ;
+   height:380px ;
    border-radius: 20px;
    margin: 30px;
    overflow: hidden;
@@ -644,12 +645,13 @@ padding-top: 20px;
     justify-content: center;
   
   }
-  .buy-card .btn{
+  .buy-card .btn {
     background-color: #333;
     padding:10px 25px;
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 5px;
+    
   }
   .buy-con{
     display: flex;
@@ -985,18 +987,18 @@ margin-top: 20px;
 text-align: center;
 }
 
-.sgmain button{
+.sgmain .sgbutt{
  background-color: #e64a19;
  color: white;
   padding: 10px 114px;
   border-radius: 0;
   font-size: 24;
   border-radius: 25px;
-  margin-top: 10px;
+  margin-top: 30px;
 
 }
 
-.sgmain button:hover{
+.sgmain .sgbutt:hover{
 background-color: black;
  color: #d6d1d1;
  
