@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Noto+Sans+Kawi&family=Open+Sans&family=Playpen+Sans:wght@800&family=Poppins:ital,wght@0,200;0,300;0,600;1,100&family=Roboto+Slab:wght@200;800&family=Roboto:wght@100&display=swap');
+
 
 :root{
     --btn-color1:#6073db;
@@ -100,7 +102,12 @@
     border-left: 2px solid var(--white);
   }
 
-
+h1{
+  font-family: 'Roboto Slab', serif; 
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
 
 
 
@@ -769,6 +776,7 @@ footer */
 .footer {
   background-color: #f5f5f5;
   padding: 20px;
+  font-family: 'Noto Sans Kawi', sans-serif;
 }
 ul{
   list-style: none;
@@ -798,6 +806,7 @@ ul{
 .footer-column h2 {
   font-size: 20px;
   margin-bottom: 10px;
+ 
 
 }
 
@@ -1020,4 +1029,60 @@ background-color: black;
  color: #d6d1d1;
  
  }
+ /* Contact us page */
+ .contactus-heading{
+  padding-top: 40px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  color: red;
+
+ }
+ .contactus-main{
+  display: flex;
+  height: 600px;
+  background-color: black;
+  justify-content: center;
+  align-items:  center;
+  
+
+
+ }
+ .cont-info{
+  height: 450px;width: 600px;
+  /* background-color: #333; */
+  background-color: black;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+ }
+ .map{
+ 
+  
+
+ }
+.txt .txtsub{
+ 
+  display: flex;
+  flex-direction: row;
+
+ 
+ }
+.txt .txtsub h3{
+  font-size: 20px;
+  padding-bottom: 10px;
+  align-items: flex-start;
+ 
+}
+.txt ion-icon{
+  color: red;
+  font-size: 25px;
+  padding-right: 10px;
+
+}
+.txt {
+ 
+}
  
